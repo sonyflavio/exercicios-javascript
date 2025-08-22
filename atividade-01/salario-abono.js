@@ -6,4 +6,4 @@ let abono = leia.questionFloat("Digite o abono: ")
 let novoSalario = salario + abono 
 
 
-console.log("Novo salário : %f" , novoSalario )
+console.log("Novo salário : " , novoSalario.toFixed(2) )
